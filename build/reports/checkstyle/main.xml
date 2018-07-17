@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/CacheConfig.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/Calculation.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/CalculationRepository.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/Calculator.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/CalculatorApplication.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/main/java/com/leszko/calculator/CalculatorController.java">
+</file>
+</checkstyle>
