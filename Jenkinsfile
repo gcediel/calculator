@@ -1,5 +1,5 @@
 pipeline {
-	agent ani
+	agent any
 	stages {
 		stage("Compile") {
 			steps {
