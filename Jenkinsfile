@@ -35,15 +35,5 @@ pipeline {
 				sh "./gradlew checkstyleMain"
 			}
 		}
-		stage("Package") {
-			steps {
-				sh "./gradlew build"
-			}
-		}
-		stage("Docker build") {
-			steps {
-				sh "docker build -t 192.168.0.30:5000/calculator ."
-			}
-		}
 	}
 }
