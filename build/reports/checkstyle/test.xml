@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/test/java/acceptance/AcceptanceTest.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/test/java/acceptance/StepDefinitions.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/test/java/com/leszko/calculator/CalculatorTest.java">
+</file>
+<file name="/home/gcb/Documentos/Desarrollo/CDDJ/calculator/src/test/java/smoke/SmokeTest.java">
+</file>
+</checkstyle>
