@@ -3,6 +3,11 @@ pipeline {
 	triggers {
 		pollSCM('* * * * *')
 	}
+	post {
+        always {
+            sh "docker -H 192.168.0.11:2375 stop calculator"
+        }
+    }
 	stages {
 		stage("Compile") {
 			steps {
