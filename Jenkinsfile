@@ -42,7 +42,7 @@ pipeline {
         }
         stage("Docker build") {
             steps {
-                sh "docker build -t quercus.elbor.org:5000/calculator ."
+                sh "docker -H 192.168.0.11:2375 build -t quercus.elbor.org:5000/calculator ."
             }
         }
         stage("Docker push") {
