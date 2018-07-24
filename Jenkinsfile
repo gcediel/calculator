@@ -55,5 +55,11 @@ pipeline {
                 sh "docker -H 192.168.0.11:2375 run -d --rm -p 8765:8080 --name calculator quercus.elbor.org:5000/calculator"
             }
         }
+        stage("Acceptance test") {
+            steps {
+                sleep 60
+                sh "./acceptance_test.sh"
+            }
+        }
 	}
 }
