@@ -50,5 +50,10 @@ pipeline {
                 sh "docker -H 192.168.0.11:2375 push quercus.elbor.org:5000/calculator"
             }
         }
+        stage("Deploy to staging") {
+            steps {
+                sh "docker run -H 192.168.0.11:2375 -d --rm -p 8765:8080 --name calculator quercus.elbor.org:5000/calculator"
+            }
+        }
 	}
 }
