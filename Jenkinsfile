@@ -5,7 +5,8 @@ pipeline {
 	}
 	post {
         always {
-            sh "docker -H 192.168.0.11:2375 stop calculator"
+		sh "docker-compose down"
+
         }
     }
 	stages {
@@ -57,7 +58,7 @@ pipeline {
         }
         stage("Deploy to staging") {
             steps {
-                sh "docker -H 192.168.0.11:2375 run -d --rm -p 8765:8080 --name calculator quercus.elbor.org:5000/calculator"
+		sh "docker-compose up -d"
             }
         }
         stage("Acceptance test") {

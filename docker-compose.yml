@@ -3,6 +3,6 @@ services:
   calculator:
     image: leszko/calculator:latest
     ports:
-      - 8080
+      - 9080
   redis:
     image: redis:latest
